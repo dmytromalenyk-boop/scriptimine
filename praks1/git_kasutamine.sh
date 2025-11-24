@@ -11,6 +11,11 @@ git config --global core.editor nano
 
 b) loo kasaloog, kus hakkad skriptima
 mkdir skriptimine
+b) git remote kontroll
+git remote -v
+
+a) pane fall jälgimisele:
+git add fallinimi
 
 c) sisene antud kausta
 cd skriptimine
