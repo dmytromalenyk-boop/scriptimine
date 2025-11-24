@@ -18,3 +18,9 @@ cd skriptimine
 d) tekida lokaalne repositiipium git süsteemi jaols antud kaust:
 git init
 
+remote seadistamine:
+e) git remoto add nimi github:aasress
+git remote add skriptimine git@github.com:kasutajanimi/reponimi.git
+
+f) git remote kontroll
+git remote -v
