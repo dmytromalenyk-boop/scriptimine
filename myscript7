@@ -1,0 +1,13 @@
+#!/bin/bash
+
+dir=/home/dmytro
+
+name="dmytro"
+
+if [ -d $dir ] && [ -n $name ]; then
+	echo "The name exists and the folder $dir exists."
+
+else
+	echo "One test failed"
+
+fi

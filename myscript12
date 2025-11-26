@@ -1,0 +1,9 @@
+#!/bin/bash
+mydir=/home/dmytro
+if [ -d $mydir ]; then
+	echo "Directory $mydir exists"
+	cd $mydir
+	ls
+else
+	echo "NO such file or directory $mydir"
+fi

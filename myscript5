@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if whoami; then
+	echo "It works"
+
+fi

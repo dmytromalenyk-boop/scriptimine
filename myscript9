@@ -1,0 +1,8 @@
+#!/bin/bash
+
+user="dmytro"
+
+if [ $user = $USER ]; then
+	echo "The user $user&nbsp; is the current logged in user"
+
+fi

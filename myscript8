@@ -1,0 +1,12 @@
+#!/bin/bash
+
+num=9
+
+if [ $num -gt 10 ]; then
+	echo "$num is bigger then 10"
+
+else
+
+	echo "$num is less then 10"
+
+fi

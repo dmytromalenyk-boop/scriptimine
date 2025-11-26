@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# näitan kodu
+
+echo "Kodu aadres kasutaja on: $HOME"

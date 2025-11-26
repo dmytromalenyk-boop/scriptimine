@@ -1,0 +1,11 @@
+#!/bin/bash
+
+user=dmytro3
+
+if grep $user /etc/passwd; then
+	echo "The  user $user Exists"
+
+elif ls /home; then
+	echo "The user doesn'n exist"
+
+fi
