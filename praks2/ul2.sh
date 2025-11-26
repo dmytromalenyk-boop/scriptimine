@@ -1,7 +1,7 @@
 #!/bin/bash
 #See script tervitab sinule
 
-nimi="Kasutajanimi"
+nimi=`whoami`
 	echo "Tere, $nimi !"
 
 #esimene script
