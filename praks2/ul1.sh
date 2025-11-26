@@ -4,3 +4,4 @@
 nimi=`whoami`
 	echo "Tere, $nimi !"
 
+#esimene script
